@@ -29,8 +29,10 @@ nav {
     background-color: #9C4A1A;
     color: white;
     text-align: center;
-    padding: 1.5em;
+    padding: 1.3em;
     font-family: 'Jura', sans-serif;
+    text-align: left;
+
 }
 
 nav a {
@@ -48,11 +50,33 @@ nav a:hover {
     border-radius: 7px;
 }
 
-/* Add a new rule for the specific link */
-nav a.special-link {
+nav h4.special-link {
     color: #F7C815; /* Your desired color */
     font-weight: bold;
-    /* Add any additional styles as needed */
+    margin-top: -18px;
+    text-align: right;
+}
+
+footer h4.special-link {
+    color: #F7C815; /* Your desired color */
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 96%);
+    margin: 0 1em;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+footer a:hover {
+    background-color: #EC9704;
+    color: #fff;
+    border-radius: 7px;
 }
 
 section {
